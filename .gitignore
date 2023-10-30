@@ -1,0 +1,9 @@
+# Global.
+/**/.DS_STORE
+/**/node_modules
+
+# WP-Scripts specific.
+# We only need the CSS files, so we can ignore the rest.
+build/wceu2024.js
+build/wceu2024.asset.*
+package-lock.json
