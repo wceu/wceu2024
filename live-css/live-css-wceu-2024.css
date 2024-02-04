@@ -32,9 +32,9 @@ h4.has-text-align-right.view-all-underline {
 /* Home smartphone rules */
 @media (max-width:767px) {
 	.wp-block-media-text__content p,
-											.wp-block-media-text__content .wp-block-group {
- padding: 0 !important;
-}
+	.wp-block-media-text__content .wp-block-group {
+		padding: 0 !important;
+	}
 
 .wp-block-group.home-events {
  padding-top: 4rem !important;
