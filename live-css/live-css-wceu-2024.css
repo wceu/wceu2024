@@ -1,0 +1,759 @@
+/**** Aditional CSS ****/
+/* Gloria Liuni rules */
+/*-- link underline -- */
+p a, li a, h4.has-text-align-right.view-all-underline {
+	text-underline-offset: 9px;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+	transition: all .2s;
+}
+
+p a:hover, li a:hover, h4.has-text-align-right.view-all-underline:hover, .bg-shape-community:hover {
+	text-underline-offset: 3px;
+	transition: all .2s;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
+}
+
+/* -- Home Latest News -- */
+
+/* -- Home Our Sponsor section -- */
+.home-our-sponsor {
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+}
+
+/* Home smartphone rules */
+@media (max-width:767px) {
+
+p a, li a {
+	text-underline-offset: 6px;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	transition: all .2s;
+}
+
+p a:hover, li a:hover {
+	text-underline-offset: 3px;
+	transition: all .2s;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+
+.wp-block-media-text__content p,
+											.wp-block-media-text__content .wp-block-group {
+ padding: 0 !important;
+}
+
+.wp-block-group.home-events {
+ padding-top: 4rem !important;
+}
+
+.home-events h2 {
+ line-height: 1.2 !important;
+ margin-bottom: 1.2rem;
+	}
+
+/* Sponsor Level on Single Sponsor page */
+
+.taxonomy-wcb_sponsor_level.custom-sponsor-level.wp-block-post-terms a{
+    font-size: 1.2rem;
+}
+
+/*-- responsive ticket table --*/
+
+.tix_tickets_table table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+/* Hide table headers (but not display: none;, for accessibility) */
+thead tr {
+position: absolute;
+top: -9999px;
+left: -9999px;
+	}
+
+td {
+/* Behave  like a "row" */
+border: 0px;
+position: relative;
+padding-left: 50%;
+	}
+
+td:before {
+/* Now like a table header */
+position: absolute;
+
+/* Top/left values mimic padding */
+top: 6px;
+left: 6px;
+width: 45%;
+padding-right: 10px;
+white-space: nowrap;
+	}
+
+.tix-tickets-list .tix-column-description {
+padding: 0px !important;
+border: 0px;
+text-align: center !important;
+}
+
+.tix-js .tix_tickets_table tbody .tix-ticket-title {
+    font-weight: bold;
+font-family: 'Krona One';
+text-transform: capitalize;
+    display: block;
+    width: auto;
+    background: #F9B233;
+    padding: 10px 20px;
+}
+
+/*-- responsive ticket form --*/
+
+.tix-ticket-form td.tix-left, .tix-private-form td.tix-left, .tix-attendee-form td.tix-left, .tix-receipt-form td.tix-left, .tix-ticket-form td.tix-right, .tix-private-form td.tix-right, .tix-attendee-form td.tix-right, .tix-receipt-form td.tix-right {
+width:90% !important;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+    padding-top: 0.5em !important;
+}
+
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-left, .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
+    text-align: left !important;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+    padding-left: 20px;
+}
+
+.tix-ticket-form input[type="text"], .tix-ticket-form input[type="email"], .tix-ticket-form input[type="url"], .tix-ticket-form textarea, .tix-private-form input[type="text"], .tix-private-form input[type="email"], .tix-private-form input[type="url"], .tix-private-form textarea, .tix-attendee-form input[type="text"], .tix-attendee-form input[type="email"], .tix-attendee-form input[type="url"], .tix-attendee-form textarea, .tix-receipt-form input[type="text"], .tix-receipt-form input[type="email"], .tix-receipt-form input[type="url"], .tix-receipt-form textarea {
+    width: 100% !important;
+}
+
+.tix-order-summary .tix-column-description {
+    width: 80% !important;
+}
+
+.tix-js .tix_tickets_table.tix-attendee-form tbody td, .tix_tickets_table.tix-attendee-form tbody th {
+    padding: 5px 0px !important;
+}
+
+.tix-attendee-form tr {
+padding-bottom: 40px !important;
+}
+
+.tix-left  {
+font-weight: 600 !important;
+}
+
+
+}
+
+/*-- Global buttons --*/
+.cta-button a:hover {
+	background-color: #FDEFE9 !important;
+}
+
+.primary-button-yellow a:hover {
+	background-color: #Fff !important;
+	color: #171717 !important;
+	border: 2px solid #F9B233 !important;
+}
+
+.primary-button-yellow a {
+	border: 2px solid #F9B233 !important;
+}
+
+.wp-element-button:hover,
+.wp-block-button__link:hover {
+ background-color: #fff;
+ border: 3px solid #f9b233;
+ color: #1f1f1f;
+}
+.wp-element-button,
+.wp-block-button__link {
+  border: 3px solid #f9b233;
+}
+
+.button-sponsor-website a {
+background-color: var(--wp--preset--color--custom-trinidad-100) !important;
+border: 3px solid var(--wp--preset--color--custom-trinidad-100) !important;
+}
+
+.button-sponsor-website a:hover {
+background-color: #ffffff !important;
+border: 3px solid var(--wp--preset--color--custom-trinidad-100) !important;
+}
+
+
+.button-trinidad-80 a {
+background-color: var(--wp--preset--color--custom-trinidad-80) !important;
+border: 3px solid var(--wp--preset--color--custom-trinidad-80) !important;
+}
+
+.button-trinidad-80 a:hover {
+background-color: #ffffff !important;
+border: 3px solid var(--wp--preset--color--custom-trinidad-80) !important;
+}
+
+/**** Aditional CSS ****/
+
+ul li a {
+    text-decoration: none;
+  }
+
+  /*--- header ---*/
+
+  .mobile-menu-logo-WCEU {
+    display: none;
+  }
+
+
+  /*--- HOME ---*/
+
+  .bg-shape-community {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  /*--- latest news home ---*/
+
+  .latest-news-home {
+    background: url('/files/2024/01/Yellow-Latest-News-Top.png') right top no-repeat, url('/files/2024/01/Yellow-Latest-News.png') left 45px bottom no-repeat;
+    background-size: 50%, 250px;
+  }
+
+  .latest-news-home-feed li {
+    display:grid;
+  }
+
+  .latest-news-home-feed .wp-block-latest-posts__featured-image {
+    position: relative;
+    order: 1;
+  }
+
+    .latest-news-home-feed .wp-block-latest-posts__post-date {
+      font-family: 'Krona One';
+      color: var(--wp--preset--color--custom-mandy-dark);
+      font-size: 20px;
+      order: 2;
+    }
+
+    .latest-news-home-feed .wp-block-latest-posts__post-title {
+      font-family: 'Krona One';
+      color: black;
+      font-size: 30px;
+      order: 3;
+    }
+
+    .latest-news-home-feed .wp-block-latest-posts__post-excerpt {
+      order: 4;
+    }
+
+    .wp-block-latest-posts__post-excerpt a {
+      font-family: 'Krona One';
+      font-size: 18px;
+      background: var(--wp--preset--color--custom-trinidad-80);
+      padding: 15px 30px;
+      color: black;
+      text-decoration: none;
+    }
+
+.latest-news-home .primary-button-orange:hover {
+background:#ffffff !important;
+}
+
+
+
+    /*--- upcomming events home ---*/
+
+    .upcomming-events-home-feed li {
+      display: grid;
+      background-color: #fff;
+    }
+
+    .upcomming-events-home-feed .wp-block-latest-posts__featured-image {
+      position: relative;
+      order: 1;
+    }
+
+    .upcomming-events-home-feed .wp-block-latest-posts__post-date {
+      font-family: 'Krona One';
+      color: var(--wp--preset--color--custom-mandy-dark);
+      font-size: 20px;
+      order: 2;
+      padding: 0 20px;
+    }
+
+    .upcomming-events-home-feed .wp-block-latest-posts__post-title {
+    font-family: 'Krona One';
+    color: black;
+    font-size: 30px;
+    order: 3;
+    padding: 0 20px;
+    }
+
+    .upcomming-events-home-feed .wp-block-latest-posts__post-excerpt {
+      order: 4;
+      padding: 0 20px;
+    }
+
+    .wp-block-latest-posts__post-excerpt a {
+     display: none;
+    }
+
+    /*--- ORGANIZERS ---*/
+
+    .organizers-index li {
+      font-family: 'Krona One';
+      margin-left: 1.5rem;
+    }
+
+    .page-id-957 .wordcamp-organizer {
+      display: grid;
+    }
+
+    .page-id-957 .wordcamp-block__item-title {
+      order: 2;
+      font-size: clamp(1.2rem, 0.7863rem + 1.7419vw, 1.875rem);
+    }
+
+    .wordcamp-organizer h3{
+      margin: 10px 0 !important;
+    }
+
+    .wordcamp-organizer p {
+      margin-block-start: 0em;
+    }
+
+    .page-id-957 .wordcamp-image__avatar-container {
+      order: 1;
+    }
+
+    .page-id-957 .wordcamp-block__item-content {
+      order: 3;
+      font-size: clamp(1.2rem, 0.9395rem + 1.0968vw, 1.625rem);
+    }
+
+    .page-id-957 .wordcamp-post-list.has-layout-grid {
+      grid-column-gap: 3em;
+    }
+
+    .page-id-957 .slug-juan-hernando .wordcamp-image__avatar-container::after, .page-id-957 .slug-takis-bouyouris .wordcamp-image__avatar-container::after, .page-id-957 .slug-wendie-huis-in-t-veld .wordcamp-image__avatar-container::after, .page-id-957 .wordcamp-post-list li:first-child .wordcamp-image__avatar-container::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px; /* Adjust with the over image */
+      background-image: url('/files/2024/01/Organizer-Border-Pink.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .page-id-1479 #tix-attendees li .avatar, .sponsor-human .wp-block-image,
+    .page-id-957 .wordcamp-image__avatar-container {
+      position: relative;
+    }
+
+    .page-id-1479 #tix-attendees li .avatar::after, .sponsor-human .wp-block-image.size-full::after,
+    .page-id-957 .wordcamp-image__avatar-container::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100px; /* Adjust with the over image */
+      background-image: url('/files/2024/01/Organizer-Shape-Yellow.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+       .page-id-1479 #tix-attendees li .avatar img, .sponsor-human img, .page-id-957 .wordcamp-image__avatar-container img {
+        width: 100%;
+
+    }
+
+
+    /*--- footer ---*/
+
+    .big-footer {
+      background: url('/files/2024/01/Footer-Orange-Abstract-Shapes-34.png') right 750px bottom no-repeat, url('/files/2024/01/Footer-Pink-Abstract-Shapes-31.png') right -5px bottom no-repeat;
+      background-size: 120px, 680px;
+    }
+
+    .wp-block-search .wp-element-button, .wp-block-search .wp-block-button__link {
+      border-radius: 0px;
+      margin: 0;
+    }
+
+.link-no-underline a, .latest-news-home .primary-button-orange:hover {
+text-decoration: none;
+}
+
+    /*--- responsive ---*/
+
+    @media (max-width: 767px) {
+
+.mini-spacer {
+height: 0px !important;
+}
+
+      .footer-info {
+        text-align: center;
+      }
+
+      .big-footer {
+        background: url('/files/2024/01/Footer-Orange-Abstract-Shapes-34.png') right 750px bottom no-repeat, url('/files/2024/01/Footer-Pink-Abstract-Shapes-31.png') right -5px bottom no-repeat;
+          background-color: rgba(0, 0, 0, 0);
+          background-size: auto, auto;
+          background-size: 120px, 480px;
+      }
+
+      /*--- responsive menu mobile ---*/
+
+      .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content, .wp-block-navigation__responsive-container.is-menu-open {
+        padding-top: 0px;
+      }
+
+      .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open {
+        background-color: #FBDED2;
+      }
+
+      .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item {
+        font-family: 'Lora', serif;
+        margin-bottom: 16px;
+      }
+
+      .wp-block-navigation__responsive-container-close {
+          right: 0;
+          top: 20px;
+      }
+
+      .wp-block-site-logo.is-default-size img {
+          height: auto;
+          width: 100%;
+      }
+
+      .ticket-button-mobile a { background-color: white;
+padding: 15px !important;
+border: 2px solid #ea5b1b;
+color: #ea5b1b !important;
+font-family: 'Krona One';
+text-transform: uppercase;
+text-align: center;
+      }
+
+      .has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog {
+        margin-top: 0px;
+      }
+    }
+
+/*--- responsive, ONLY for mobile ---*/
+
+    /* Camptix block */
+.tix-js {
+  font-size: 1.1em;
+}
+.tix-js .tix_tickets_table th, .tix-js .tix_tickets_table td {
+  padding: 5px 20px;
+}
+.tix-js .tix_tickets_table thead th {
+  background-color: #f9b233;
+  font-weight: bold;
+  color: #fff;
+}
+.tix-js .tix_tickets_table tbody .tix-ticket-title {
+  font-weight: bold;
+}
+.tix-js .tix_tickets_table tbody th, .tix-js .tix_tickets_table tbody td {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.tix-js .tix_tickets_table tbody .tix-column-price, .tix-js .tix_tickets_table tbody .tix-column-remaining {
+  font-weight: bold;
+}
+.tix-js .tix_tickets_table tbody .tix-column-quantity select {
+  padding: 8px 7px;
+}
+.tix-js .tix_tickets_table.tix-order-summary {
+  width: 100%;
+  margin-top: 2rem;
+}
+.tix-js .tix_tickets_table.tix-order-summary .tix-row-total td:last-child {
+  border-top: 1px solid gray;
+}
+.tix-js .tix_tickets_table.tix-order-summary tbody th, .tix-js .tix_tickets_table.tix-attendee-form tbody th, .tix-js .tix_tickets_table.tix-order-summary tbody td, .tix-js .tix_tickets_table.tix-attendee-form tbody td {
+  border: none;
+  padding: 5px 20px;
+}
+.tix-js .tix_tickets_table tbody th {
+  text-align: left;
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-left {
+  text-align: right;
+  padding-right: 0.5em;
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-left:after {
+  content: ':';
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+  text-align: left;
+  padding-left: 0.5em;
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-left, .tix-js .tix_tickets_table.tix-attendee-form .tix-right {
+  padding-top: 1.5em;
+  vertical-align: bottom;
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left {
+  text-align: left;
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left p {
+  margin-bottom: 1em;
+}
+.tix-js .tix_tickets_table.tix-attendee-form .tix-row-health-advisory .tix-left::after {
+  content: none;
+}
+.tix-js .camptix-invoice-toggle-wrapper {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.tix-js .camptix-invoice-toggle-wrapper label {
+  font-weight: bold;
+}
+.tix-js .camptix-invoice-toggle-wrapper table label {
+  font-weight: normal;
+}
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details {
+  width: 100%;
+  margin-bottom: 2em;
+}
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details td {
+  border: none;
+}
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left {
+  text-align: right;
+  padding-right: 0.5em;
+}
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left:after {
+  content: ':';
+}
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-right {
+  text-align: left;
+  padding-left: 0.5em;
+}
+.tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-left, .tix-js .camptix-invoice-toggle-wrapper .camptix-invoice-details .tix-right {
+  padding-top: 1.5em;
+  vertical-align: bottom;
+}
+.tix-js .tix-submit {
+  display: block;
+  margin-bottom: 3em;
+}
+.tix-js input[type='submit'],
+.tix-checkout-button {
+  font-family: 'Krona One';
+  margin-top: 2rem;
+  border: 2px solid #F9B233 !important;
+  padding: 15px 30px !important;
+  background-color: #F9B233;
+  color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tix-js input[type='submit']:hover,
+.tix-checkout-button:hover {
+  border: 2px solid #F9B233 !important;
+  background-color: #fff;
+  color: #000;
+}
+.tix-js #tix-registration-information {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.tix-js .tix-payment-method .tix-payment-tab {
+  border-color: #f9b233;
+}
+.tix-js .tix-payment-method-container fieldset {
+  border: 1px solid #f9b233;
+}
+
+table.tix_tickets_table.tix-tickets-list {
+ border-collapse: collapse;
+}
+
+.entry-content input,.entry-content select {
+ font-size: 1rem;
+ padding: 10px;
+ font-family:'Lora';
+}
+
+.package-avl-table a
+{
+font-family:'Krona One';
+font-size: 32px;
+text-decoration:none;
+}
+
+/* Smooth scrolling unless user prefers otherwise */
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+/* Organizers Page */
+.wordcamp-image__avatar-container img {
+/* width: auto !important; */
+        width: 100%;
+        height: auto;
+}
+
+/** Sponsor featured image width **/
+.single-wcb_sponsor .wp-block-post-featured-image {
+    max-width: 650px;
+}
+
+.home-purchase-tix-button a:hover {
+border: 2px solid var(--wp--preset--color--custom-trinidad-100) !important;
+color: #000000 !important;
+}
+
+.wp-block-post-featured-image img, .wp-block-post-featured-image .block-editor-media-placeholder, .wp-block-post-featured-image .wp-block-post-featured-image__overlay {
+border-radius: 0px;
+}
+
+
+.web-log-2024 .wp-block-post-excerpt__more-link {
+font-family: 'Krona One', sans-serif;
+background-color: #F9B233 !important;
+border: 3px solid #F9B233 !important;
+font-size: 18px;
+padding: 15px 30px;
+margin-top: 10px;
+}
+
+.web-log-2024 .wp-block-post-excerpt__more-link:hover {
+background-color: #ffffff !important;
+border: 3px solid #F9B233 !important;
+text-decoration: none;
+}
+
+.mini-community-spotlight  .wp-block-post-title::before {
+  content: "Get to know ";
+}
+
+.mini-community-spotlight .wp-block-read-more:hover {
+background-color: #ffffff !important;
+border: 3px solid #F9B233 !important;
+}
+
+
+/** Attendees Page **/
+.page-id-1479 #tix-attendees li {
+    height: auto;
+    min-height: 425px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.page-id-1479 #tix-attendees li .avatar {
+    float: none;
+    height: auto;
+    width: auto;
+}
+
+
+.page-id-1479 #tix-attendees li .tix-attendee-name {
+color: var(--wp--preset--color--contrast);
+font-family: 'Krona One', sans-serif;
+text-transform: capitalize;
+font-size: 1.5rem;
+text-align:left;
+}
+
+.page-id-1479 #tix-attendees .tix-attendee-twitter {
+float: left;
+margin-top: 10px;
+visibility: hidden;
+width: 25%;
+margin-right: 10px;
+margin-left: 0px;
+}
+
+.page-id-1479 #tix-attendees .tix-attendee-url {
+float: left;
+margin-top: 10px;
+visibility: hidden;
+width: 25%;
+margin-right: 10px;
+margin-left: 0px;
+}
+
+
+
+.page-id-1479 #tix-attendees .tix-attendee-twitter:before {
+background: url(//europe.wordcamp.org/2024/files/2024/02/Vector.png) no-repeat;
+    background-size: contain;
+    content: "";
+    display: inline-block;
+    height: 32px;
+    visibility: visible;
+    width: 32px;
+}
+
+.page-id-1479 #tix-attendees .tix-attendee-url:before {
+background: url(//europe.wordcamp.org/2024/files/2024/02/website.png) no-repeat;
+background-size: contain;
+content: "";
+display: inline-block;
+height: 32px;
+visibility: visible;
+width: 32px;
+}
+
+.page-id-1479 #tix-attendees a[href^="https://profiles.wordpress.org"]:before {
+background: url(//europe.wordcamp.org/2024/files/2024/02/wordpress.png) no-repeat;
+background-size: contain;
+}
+
+.page-id-1479 #tix-attendees li .tix-attendee-name {
+margin-left: 0px !important;
+}
+
+.page-id-1479 .tix-last {
+display: block;
+clear: both;
+}
+
+.page-id-1479 #tix-attendees .tix-columns-4 li {
+    width: 20%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+/* Attendee list avatar */
+.tix-attendee-list .avatar {
+    width: 225px !important;
+}
+
+.spotlight-organizer .wp-block-quote p {
+font-style: normal !important;
+max-width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+}
+
+.spotlight-organizer h4 {
+padding-top: var(--wp--preset--spacing--20);
+    padding-right: var(--wp--preset--spacing--30);
+    padding-left: var(--wp--preset--spacing--30);
+}
