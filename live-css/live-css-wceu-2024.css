@@ -815,10 +815,10 @@ table.tix_tickets_table.tix-tickets-list {
 /* Media partners mobile */
 @media (max-width:767px) {
 	.page-id-1477 .wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-9,
-	.page-id-1477 .wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-13,
-	.page-id-1477 .wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-17,
-	.page-id-1477 .wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-21,
-	.page-id-1477 .wp-container-core-group-is-layout-9.wp-container-core-group-is-layout-24 {
+	.page-id-1477 .wp-container-core-group-is-layout-13.wp-container-core-group-is-layout-13,
+	.page-id-1477 .wp-container-core-group-is-layout-17.wp-container-core-group-is-layout-17,
+	.page-id-1477 .wp-container-core-group-is-layout-21.wp-container-core-group-is-layout-21,
+	.page-id-1477 .wp-container-core-group-is-layout-24.wp-container-core-group-is-layout-24 {
 		grid-template-columns: 1fr;
 	}
 } /* End of media rule @media (max-width:767px) */
