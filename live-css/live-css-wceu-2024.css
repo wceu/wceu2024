@@ -226,7 +226,7 @@ h4.has-text-align-right.view-all-underline:hover,
 
 /**** Aditional CSS ****/
 
-ul li a {
+ul.organizers-index li a {
 	text-decoration: none;
 }
 
