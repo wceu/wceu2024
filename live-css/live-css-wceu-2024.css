@@ -760,7 +760,7 @@ table.tix_tickets_table.tix-tickets-list {
 	background-position-y: center;
 	content: "";
 	display: inline-block;
-	height: 32px;
+	height: 33px;
 	visibility: visible;
 	width: 32px;
 }
