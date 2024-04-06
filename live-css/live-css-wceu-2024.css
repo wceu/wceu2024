@@ -757,6 +757,7 @@ table.tix_tickets_table.tix-tickets-list {
 .page-id-1479 #tix-attendees .tix-attendee-twitter:before {
 	background: url(//europe.wordcamp.org/2024/files/2024/02/Vector.png) no-repeat;
 	background-size: contain;
+	background-position-y: center;
 	content: "";
 	display: inline-block;
 	height: 32px;
@@ -767,6 +768,7 @@ table.tix_tickets_table.tix-tickets-list {
 .page-id-1479 #tix-attendees .tix-attendee-url:before {
 	background: url(//europe.wordcamp.org/2024/files/2024/02/website.png) no-repeat;
 	background-size: contain;
+	background-position-y: center;
 	content: "";
 	display: inline-block;
 	height: 32px;
@@ -777,6 +779,7 @@ table.tix_tickets_table.tix-tickets-list {
 .page-id-1479 #tix-attendees a[href^="https://profiles.wordpress.org"]:before {
 	background: url(//europe.wordcamp.org/2024/files/2024/02/wordpress.png) no-repeat;
 	background-size: contain;
+	background-position-y: center;
 }
 
 .page-id-1479 #tix-attendees li .tix-attendee-name {
