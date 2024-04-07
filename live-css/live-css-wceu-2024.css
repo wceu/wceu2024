@@ -822,3 +822,7 @@ table.tix_tickets_table.tix-tickets-list {
 		grid-template-columns: 1fr;
 	}
 } /* End of media rule @media (max-width:767px) */
+
+.wordcamp-schedule__session .wordcamp-schedule__session-category {
+	text-transform: uppercase;
+}
