@@ -9,7 +9,6 @@ h4.has-text-align-right.view-all-underline {
 	text-decoration-thickness: 3px;
 	transition: all .2s;
 }
-
 p a:hover,
 li a:hover,
 h4.has-text-align-right.view-all-underline:hover,
@@ -821,8 +820,9 @@ table.tix_tickets_table.tix-tickets-list {
 	.page-id-1477 .wp-container-core-group-is-layout-24.wp-container-core-group-is-layout-24 {
 		grid-template-columns: 1fr;
 	}
-} /* End of media rule @media (max-width:767px) */
+} /* End of media rule @media (max-width:767px) 
 
 .wordcamp-schedule__session .wordcamp-schedule__session-category {
 	text-transform: uppercase;
 }
+*/
