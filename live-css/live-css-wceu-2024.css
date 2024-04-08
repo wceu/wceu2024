@@ -825,6 +825,13 @@ table.tix_tickets_table.tix-tickets-list {
 /* schedule styling */
 
 .wordcamp-schedule .wordcamp-schedule__column-header {
-	background-color: #c21515 !important;
-	color: #fff !important;
+	background-color: #F9B233 !important;
+}
+
+.wordcamp-schedule__time-slot-header {
+	background-color: #FBD185	!important;
+}
+
+#wordcamp-schedule__session-9661 {
+	background-color: #FDE0AD	!important;
 }
