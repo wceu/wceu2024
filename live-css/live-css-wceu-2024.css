@@ -829,5 +829,9 @@ table.tix_tickets_table.tix-tickets-list {
 }
 
 .wordcamp-schedule__column-header {
-    background-color: #000000 !important;
+	background-color: #000000 !important;
+}
+
+.wordcamp-schedule .wordcamp-schedule__column-header {
+	background-color: #000 !important;
 }
