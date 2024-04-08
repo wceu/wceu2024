@@ -820,10 +820,14 @@ table.tix_tickets_table.tix-tickets-list {
 	.page-id-1477 .wp-container-core-group-is-layout-24.wp-container-core-group-is-layout-24 {
 		grid-template-columns: 1fr;
 	}
-} /* End of media rule @media (max-width:767px) 
+} /* End of media rule @media (max-width:767px) */
+
+/* schedule styling */
 
 .wordcamp-schedule__session .wordcamp-schedule__session-category {
 	text-transform: uppercase;
 }
 
-*/
+.wordcamp-schedule__column-header {
+    background-color: #000000 !important;
+}
