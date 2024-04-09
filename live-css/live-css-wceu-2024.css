@@ -850,6 +850,6 @@ font: 500 26px/40px 'Lora';
 }
 
 .pre-schedule-info .wp-block-cover .wp-block-cover__image-background {
-	background-size: contain !important;
+	object-fit: contain !important;
 }
  
