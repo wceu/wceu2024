@@ -848,4 +848,8 @@ font: 500 26px/40px 'Lora';
 	font: 600 16px/24px 'Mulish', sans-serif;
 	color: #C24F1B; 
 }
+
+.pre-schedule-info .wp-block-cover .wp-block-cover__image-background {
+	background-size: contain !important;
+}
  
