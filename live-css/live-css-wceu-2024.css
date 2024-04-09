@@ -859,7 +859,7 @@ font: 500 26px/40px 'Lora';
 	object-fit: contain !important;
 }
  
-.is-spanning-some-tracks h4.wordcamp-schedule__session-title {
+.is-spanning-some-tracks h4.wordcamp-schedule__session-title, .is-spanning-some-tracks .wcb-session-favourite-icon {
 	display: block;
 	text-align: center !important;
 }
