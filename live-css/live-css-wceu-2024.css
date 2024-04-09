@@ -839,6 +839,11 @@ table.tix_tickets_table.tix-tickets-list {
 	background-color: #FEF0D6	!important;
 }
 
+h4.wordcamp-schedule__session-title {
+font: 500 26px/40px 'Lora';
+}
+
+
 .wordcamp-schedule__session-speakers a {
 	font: 600 16px/24px 'Mulish', sans-serif;
 	color: #C24F1B; 
