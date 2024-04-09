@@ -826,16 +826,21 @@ table.tix_tickets_table.tix-tickets-list {
 
 .wordcamp-schedule__day {
 	background-color: #FEF7EB	!important;
-	font: 26px 'Lora', serif;
+	font: 500 26px/40px 'Lora', serif;
 }
 
 .wordcamp-schedule .wordcamp-schedule__column-header {
 	background-color: #FBD185 !important;
-	font: 24px/32px 'Krona One', sans-serif;
-	padding: 54px 69px;
+    font: 20px / 32px 'Krona One', sans-serif;
+    padding: 34px 49px !important;
 }
 
 .wordcamp-schedule__time-slot-header {
 	background-color: #FEF0D6	!important;
+}
+
+.wordcamp-schedule__session-speakers a {
+	font: 600 16px/24px 'Mulish', sans-serif;
+	color: #C24F1B; 
 }
  
