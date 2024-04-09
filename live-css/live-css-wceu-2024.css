@@ -718,7 +718,7 @@ table.tix_tickets_table.tix-tickets-list {
 /** Attendees Page **/
 .page-id-1479 #tix-attendees li {
 	height: auto;
-	min-height: 425px;
+	min-height: 435px;
 	overflow: hidden;
 	text-align: center;
 }
