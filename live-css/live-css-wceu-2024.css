@@ -848,10 +848,10 @@ table.tix_tickets_table.tix-tickets-list {
 	font: 36px/40px 'Krona One', sans-serif;	}
 
 h4.wordcamp-schedule__session-title {
-font: 500 26px/40px 'Lora' !important;
+font: 500 26px/40px 'Lora';
 }
 
-.wordcamp-schedule__column-header .is-column-time {
+.wordcamp-schedule .wordcamp-schedule__column-header .is-column-time {
 	font: 500 26px/40px 'Lora' !important;
 	}
 
