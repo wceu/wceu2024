@@ -831,7 +831,7 @@ table.tix_tickets_table.tix-tickets-list {
 
 .wordcamp-schedule .wordcamp-schedule__column-header {
 	background-color: #FBD185 !important;
-    font: 20px / 32px 'Krona One', sans-serif;
+    font: 20px/32px 'Krona One', sans-serif;
     padding: 34px 49px !important;
 }
 
@@ -850,7 +850,7 @@ font: 500 26px/40px 'Lora';
 	color: #C24F1B; 
 }
 
-.pre-schedule-info .wp-block-cover .wp-block-cover__image-background {
+.pre-schedule-info .wp-block-cover__image-background {
 	object-fit: contain !important;
 }
  
