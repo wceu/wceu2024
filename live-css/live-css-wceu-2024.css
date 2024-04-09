@@ -840,6 +840,8 @@ table.tix_tickets_table.tix-tickets-list {
 .wordcamp-schedule__time-slot-header {
 	background-color: #FEF0D6	!important;
 	font: 500 26px/40px 'Lora', serif;
+	border-left: 13px solid #FBD185; 
+
 }
 
 .wordcamp-schedule__date {
