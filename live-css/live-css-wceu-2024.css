@@ -830,8 +830,9 @@ table.tix_tickets_table.tix-tickets-list {
 }
 
 .wordcamp-schedule .wordcamp-schedule__column-header {
-	background-color: #F9B233 !important;
-	font: 24px 'Krona One', sans-serif;
+	background-color: #FBD185 !important;
+	font: 24px/32px 'Krona One', sans-serif;
+	padding: 54px 69px;
 }
 
 .wordcamp-schedule__time-slot-header {
