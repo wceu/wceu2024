@@ -726,7 +726,7 @@ table.tix_tickets_table.tix-tickets-list {
 .page-id-1479 #tix-attendees li .avatar {
 	float: none;
 	height: auto;
-	width: 100%;
+	width: 100% !important;
 }
 
 .page-id-1479 #tix-attendees li .tix-attendee-name {
