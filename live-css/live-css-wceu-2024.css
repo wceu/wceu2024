@@ -845,6 +845,9 @@ table.tix_tickets_table.tix-tickets-list {
 	font: 500 26px/40px 'Lora', serif;
 }
 
+.wordcamp-schedule__date {
+	font: 36px/40px 'Krona One', sans-serif;	}
+
 h4.wordcamp-schedule__session-title {
 font: 500 26px/40px 'Lora';
 }
