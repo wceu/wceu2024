@@ -851,7 +851,7 @@ h4.wordcamp-schedule__session-title {
 font: 500 26px/40px 'Lora' !important;
 }
 
-.wordcamp-schedule__column-header is-column-time {
+.wordcamp-schedule__column-header .is-column-time {
 	font: 500 26px/40px 'Lora' !important;
 	}
 
