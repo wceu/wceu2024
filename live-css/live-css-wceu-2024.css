@@ -824,7 +824,7 @@ table.tix_tickets_table.tix-tickets-list {
 
 /* schedule styling */
 
-.wordcamp-schedule__day {
+.wordcamp-schedule__day, .wordcamp-schedule__day p {
 	background-color: #FEF7EB	!important;
 	font: 500 26px/40px 'Lora', serif;
 }
