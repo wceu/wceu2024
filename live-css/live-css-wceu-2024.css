@@ -824,14 +824,16 @@ table.tix_tickets_table.tix-tickets-list {
 
 /* schedule styling */
 
+.wordcamp-schedule__day {
+	background-color: #FDE0AD	!important;
+}
+
 .wordcamp-schedule .wordcamp-schedule__column-header {
 	background-color: #F9B233 !important;
+	font: 24px 'Krona One', sans-serif;;
 }
 
 .wordcamp-schedule__time-slot-header {
-	background-color: #FBD185	!important;
+	background-color: ##FEF0D6	!important;
 }
-
-#wordcamp-schedule__session-9661 {
-	background-color: #FDE0AD	!important;
-}
+ 
