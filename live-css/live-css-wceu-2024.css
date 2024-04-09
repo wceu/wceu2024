@@ -700,6 +700,7 @@ table.tix_tickets_table.tix-tickets-list {
 	font-size: 18px;
 	padding: 15px 30px;
 	margin-top: 10px;
+	text-decoration: none;
 }
 
 .web-log-2024 .wp-block-post-excerpt__more-link:hover {
