@@ -733,7 +733,7 @@ table.tix_tickets_table.tix-tickets-list {
 	color: var(--wp--preset--color--contrast);
 	font-family: 'Krona One', sans-serif;
 	text-transform: capitalize;
-	font-size: 1.5rem;
+	font-size: clamp(1.2rem, 0.7863rem + 1.7419vw, 1.875rem);
 	text-align:left;
 }
 
