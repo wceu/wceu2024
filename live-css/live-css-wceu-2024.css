@@ -831,28 +831,34 @@ table.tix_tickets_table.tix-tickets-list {
 /* schedule styling */
 
 .wordcamp-schedule__day, .wordcamp-schedule__session {
-	background-color: #FEF7EB	!important;
+	background-color: #FEF7EB !important;
 	font: 500 26px/40px 'Lora', serif;
 }
 
 .wordcamp-schedule .wordcamp-schedule__column-header {
 	background-color: #FBD185 !important;
-    font: 20px/32px 'Krona One', sans-serif;
-    padding: 54px 69px !important;
+	font: 20px/32px 'Krona One', sans-serif;
+	padding: 54px 69px !important;
 }
 
 .wordcamp-schedule__time-slot-header {
-	background-color: #FDE0AD	!important;
+	background-color: #FDE0AD !important;
 	font: 500 26px/40px 'Lora', serif;
 	border-left: 13px solid #FBD185 !important;
 
 }
 
 .wordcamp-schedule__date {
-	font: 36px/40px 'Krona One', sans-serif;	}
+	font: 36px/40px 'Krona One', sans-serif;
+}
+
+.wp-block-wordcamp-schedule .wordcamp-schedule .wordcamp-schedule__day {
+	background-color: #FEF7EB !important;
+	width: fit-content;
+}
 
 h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
-font: 500 26px/40px 'Lora';
+	font: 500 26px/40px 'Lora';
 }
 .wordcamp-schedule__session-speakers a {
 	font: 600 16px/24px 'Mulish', sans-serif;
