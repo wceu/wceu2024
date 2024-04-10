@@ -789,10 +789,14 @@ table.tix_tickets_table.tix-tickets-list {
 	clear: both;
 }
 
+.page-id-1479 #tix-attendees .tix-columns-4 {
+	display: grid;
+	gap: 40px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
 .page-id-1479 #tix-attendees .tix-columns-4 li {
-	width: 20%;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
+	width: 100%;
 }
 
 /* Attendee list avatar */
@@ -840,7 +844,7 @@ table.tix_tickets_table.tix-tickets-list {
 .wordcamp-schedule__time-slot-header {
 	background-color: #FDE0AD	!important;
 	font: 500 26px/40px 'Lora', serif;
-	border-left: 13px solid #FBD185 !important; 
+	border-left: 13px solid #FBD185 !important;
 
 }
 
@@ -852,13 +856,13 @@ font: 500 26px/40px 'Lora';
 }
 .wordcamp-schedule__session-speakers a {
 	font: 600 16px/24px 'Mulish', sans-serif;
-	color: #C24F1B; 
+	color: #C24F1B;
 }
 
 .pre-schedule-info .wp-block-cover__image-background {
 	object-fit: contain !important;
 }
- 
+
 .is-spanning-some-tracks h4.wordcamp-schedule__session-title, .is-spanning-some-tracks .wcb-session-favourite-icon {
 	display: inline-block;
 	text-align: center !important;
