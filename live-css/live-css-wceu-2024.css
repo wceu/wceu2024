@@ -936,8 +936,8 @@ text-decoration: none;
 }
 
 .speaker-image-query {
-	width: 350px !important;
-    height: 350px !important;
+	width: 400px !important;
+    height: 4000px !important;
 }
 
 .speaker-image-featured-small::after, .speaker-image-query::after{
