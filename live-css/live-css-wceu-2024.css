@@ -961,9 +961,6 @@ text-decoration: none;
 		height: 330px !important;
 	}
 	
-	.speaker-image-featured::after {
-		height: 75px;
-	}
 	
 	.speaker-image-featured::before {
 		left: -90px !important;
@@ -978,7 +975,7 @@ text-decoration: none;
 		width: 100% !important;
 	}
 
-	.speaker-image-featured-small::after {
-		height: 55px !important; 
+	.speaker-image-featured-small::after, .speaker-image-featured::after, .speaker-image-query::after {
+		height: 65px !important; 
 	}
 	} /* End of media rule @media (max-width:767px) */
