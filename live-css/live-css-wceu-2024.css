@@ -979,6 +979,6 @@ text-decoration: none;
 	}
 
 	.speaker-image-featured-small::after {
-		height: 35px !important;
+		height: 35px !important; 
 	}
 	} /* End of media rule @media (max-width:767px) */
