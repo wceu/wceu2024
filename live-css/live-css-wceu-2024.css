@@ -956,9 +956,9 @@ text-decoration: none;
 /* speakers mobile */
 @media (max-width:767px) {
 	
-	.speaker-image-featured {
-		width: 330px !important;
-		height: 330px !important;
+	.speaker-image-featured, .speaker-image-query {
+		width: 335px !important;
+		height: 335px !important;
 	}
 	
 	
@@ -966,7 +966,7 @@ text-decoration: none;
 		left: -90px !important;
 	}
 	
-	.speaker-image-featured-small, .speaker-image-query {
+	.speaker-image-featured-small {
 		width: 320px !important;
 		height: 320px !important;
 	}
