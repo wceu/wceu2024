@@ -957,8 +957,8 @@ text-decoration: none;
 @media (max-width:767px) {
 	
 	.speaker-image-featured {
-		width: 320px;
-		height: 320px;
+		width: 320px !important;
+		height: 320px !important;
 	}
 	
 	.speaker-image-featured::after {
@@ -987,7 +987,7 @@ text-decoration: none;
 	}
 	
 	.speaker-image-featured-small {
-		width: 320px;
-		height: 320px
+		width: 320px !important;
+		height: 320px !important;
 	}
 	} /* End of media rule @media (max-width:767px) */
