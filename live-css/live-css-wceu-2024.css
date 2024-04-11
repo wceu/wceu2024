@@ -906,7 +906,7 @@ text-decoration: none;
 	line-height: 0px;
 }
 
-.speaker-image-featured {
+.speaker-image-featured-small {
 	position: relative;
 }
 
@@ -917,6 +917,18 @@ text-decoration: none;
 	left: 0;
 	width: 100%;
 	height: 100px; /* Adjust with the over image */
+	background-image: url('files/2024/04/Rectangle-11962.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.speaker-image-featured-small::after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 50px; /* Adjust with the over image */
 	background-image: url('files/2024/04/Rectangle-11962.png');
 	background-repeat: no-repeat;
 	background-size: cover;
