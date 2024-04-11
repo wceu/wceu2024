@@ -893,3 +893,7 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 font: 24px/40px 'Krona One';
 text-decoration: none;
 }
+
+.speaker-single-session h4 {
+	line-height: 0px;
+}
