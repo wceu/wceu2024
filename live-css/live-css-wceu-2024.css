@@ -907,6 +907,10 @@ text-decoration: none;
 }
 
 .speaker-image-featured {
+	position: relative;
+}
+
+.speaker-image-featured::after {
 	content: "";
 	position: absolute;
 	bottom: 0;
