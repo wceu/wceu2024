@@ -935,10 +935,6 @@ text-decoration: none;
     z-index: -99;
 }
 
-.speaker-image-query {
-	width: 450px !important;
-    height: 450px !important;
-}
 
 .speaker-image-featured-small::after, .speaker-image-query::after{
 	content: "";
