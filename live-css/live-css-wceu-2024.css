@@ -906,7 +906,7 @@ text-decoration: none;
 	line-height: 0px;
 }
 
-.speaker-image-featured-small, .speaker-image-featured {
+.speaker-image-featured-small, .speaker-image-featured, .speaker-image-query {
 	position: relative;
 }
 
@@ -936,9 +936,8 @@ text-decoration: none;
 }
 
 .speaker-image-query {
-	position:relative;
-	width: 350px;
-    height: 350px;
+	width: 350px !important;
+    height: 350px !important;
 }
 
 .speaker-image-featured-small::after, .speaker-image-query::after{
