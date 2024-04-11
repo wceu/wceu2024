@@ -888,3 +888,8 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.speaker-single-session p a {
+font: 24px/40px 'Krona One';
+text-decoration: none;
+}
