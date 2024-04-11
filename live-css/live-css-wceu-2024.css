@@ -894,6 +894,14 @@ font: 24px/40px 'Krona One';
 text-decoration: none;
 }
 
+.speaker-single-session p a:hover {
+	text-underline-offset: 3px;
+    transition: all .2s;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+
+}
+
 .speaker-single-session h4 {
 	line-height: 0px;
 }
