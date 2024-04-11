@@ -917,7 +917,7 @@ text-decoration: none;
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 100px; /* Adjust with the over image */
+	height: 75px; /* Adjust with the over image */
 	background-image: url('files/2024/04/Rectangle-11962.png');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -979,6 +979,6 @@ text-decoration: none;
 	}
 
 	.speaker-image-featured-small::after {
-		height: 35px !important; 
+		height: 55px !important; 
 	}
 	} /* End of media rule @media (max-width:767px) */
