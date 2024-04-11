@@ -987,7 +987,7 @@ text-decoration: none;
 	}
 	
 	.speaker-image-featured-small {
-		width: 320px !important;
+		width: 100%; !important;
 		height: 320px !important;
 	}
 	} /* End of media rule @media (max-width:767px) */
