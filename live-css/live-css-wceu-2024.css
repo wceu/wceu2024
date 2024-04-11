@@ -990,12 +990,12 @@ text-decoration: none;
 
 	/* session single */
 
-	.session-single-details .wp-block-wordcamp-session-speakers__name a, .session-single-details .wp-block-post-terms a {
+	.session-single-details .wp-block-wordcamp-session-speakers__name a, .session-single-details .taxonomy-wcb_session_category a {
 		font: 32px 'Krona One';
 		text-decoration: none;
 	}
 
-	.session-single-details .wp-block-wordcamp-session-date, .session-single-details .taxonomy-wcb_track {
+	.session-single-details .wp-block-wordcamp-session-date, .session-single-details .taxonomy-wcb_track a {
 		font: 18px 'Krona One';
 		text-decoration: none;
 	}
