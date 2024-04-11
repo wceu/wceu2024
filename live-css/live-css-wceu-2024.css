@@ -990,7 +990,7 @@ text-decoration: none;
 
 	/* session single */
 
-	.session-single-details .wp-block-wordcamp-session-speakers__name a {
+	.session-single-details .wp-block-wordcamp-session-speakers__name a, .wp-block-post-terms {
 		font: 32px 'Krona One';
 		text-decoration: none;
 	}
