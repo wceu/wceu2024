@@ -935,7 +935,12 @@ text-decoration: none;
     z-index: -99;
 }
 
-.speaker-image-featured-small::after {
+.speaker-image-query {
+	width: 350px;
+    height: 350px;
+}
+
+.speaker-image-featured-small::after, .speaker-image-query::after{
 	content: "";
 	position: absolute;
 	bottom: 0;
