@@ -987,7 +987,11 @@ text-decoration: none;
 	}
 	
 	.speaker-image-featured-small {
-		width: 100%; !important;
+		width: 320px !important;
 		height: 320px !important;
+	}
+
+	.speaker-image-featured-small img {
+		width: 100% !important;
 	}
 	} /* End of media rule @media (max-width:767px) */
