@@ -991,6 +991,6 @@ text-decoration: none;
 	/* session single */
 
 	.session-single-details .wp-block-wordcamp-session-speakers__name a, .session-single-details .wp-block-post-terms a {
-		font: 32px 'Krona One';
+		font: 24px 'Krona One';
 		text-decoration: none;
 	}
