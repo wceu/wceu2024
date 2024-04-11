@@ -937,7 +937,7 @@ text-decoration: none;
 
 .speaker-image-query {
 	width: 400px !important;
-    height: 4000px !important;
+    height: 400px !important;
 }
 
 .speaker-image-featured-small::after, .speaker-image-query::after{
