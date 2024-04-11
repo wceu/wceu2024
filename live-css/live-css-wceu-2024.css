@@ -906,7 +906,7 @@ text-decoration: none;
 	line-height: 0px;
 }
 
-.speaker-image-featured-small {
+.speaker-image-featured-small, .speaker-image-featured {
 	position: relative;
 }
 
