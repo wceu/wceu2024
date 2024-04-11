@@ -995,7 +995,7 @@ text-decoration: none;
 		text-decoration: none;
 	}
 
-	.session-single-details .wp-block-wordcamp-session-date {
+	.session-single-details .wp-block-wordcamp-session-date, .session-single-details .taxonomy-wcb_track {
 		font: 18px 'Krona One';
 		text-decoration: none;
 	}
