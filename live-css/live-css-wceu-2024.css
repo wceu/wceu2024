@@ -985,3 +985,11 @@ text-decoration: none;
 	}
 
 	} /* End of media rule @media (max-width:767px) */
+
+
+
+	/* session single */
+
+	.session-single-details {
+		font: 'Krona One';
+	}
