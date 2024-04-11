@@ -956,9 +956,14 @@ text-decoration: none;
 /* speakers mobile */
 @media (max-width:767px) {
 	
-	.speaker-image-featured, .speaker-image-query {
+	.speaker-image-featured {
 		width: 335px !important;
 		height: 335px !important;
+	}
+
+	.speaker-image-query {
+		width: 350px !important;
+		height: 350px !important;
 	}
 	
 	
