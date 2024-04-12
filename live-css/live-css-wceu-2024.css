@@ -1011,3 +1011,7 @@ text-decoration: none;
 		font: 18px 'Krona One';
 		text-decoration: none;
 	}
+
+	.wp-block-wordcamp-avatar img {
+		max-height: 100% !important;
+	}
