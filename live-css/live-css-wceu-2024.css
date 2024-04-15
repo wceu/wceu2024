@@ -12,8 +12,8 @@ h4.has-text-align-right.view-all-underline {
 }
 p a:hover,
 li a:hover,
-h4.has-text-align-right.view-all-underline:hover, .session-single-details .taxonomy-wcb_track a:hover, 
-.session-single-details .wp-block-wordcamp-session-speakers__name a:hover, 
+h4.has-text-align-right.view-all-underline:hover, .session-single-details .taxonomy-wcb_track a:hover,
+.session-single-details .wp-block-wordcamp-session-speakers__name a:hover,
 .session-single-details .taxonomy-wcb_session_category a:hover,
 .bg-shape-community:hover {
 	text-underline-offset: 3px;
@@ -848,7 +848,6 @@ table.tix_tickets_table.tix-tickets-list {
 	background-color: #FDE0AD !important;
 	font: 500 26px/40px 'Lora', serif;
 	border-left: 13px solid #FBD185 !important;
-
 }
 
 .wordcamp-schedule__date {
@@ -872,15 +871,15 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 	object-fit: contain !important;
 }
 
-.is-spanning-some-tracks h4.wordcamp-schedule__session-title, .is-spanning-some-tracks .wcb-session-favourite-icon {
+.is-spanning-some-tracks h4.wordcamp-schedule__session-title,
+.is-spanning-some-tracks .wcb-session-favourite-icon {
 	display: inline-block;
 	text-align: center !important;
 }
 
 /* speaker landing */
 
-.wcb_speaker .wordcamp-image__avatar-container::after
- {
+.wcb_speaker .wordcamp-image__avatar-container::after {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -893,15 +892,15 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 }
 
 .speaker-single-session p a {
-font: 24px/40px 'Krona One';
-text-decoration: none;
+	font: 24px/40px 'Krona One';
+	text-decoration: none;
 }
 
 .speaker-single-session p a:hover {
 	text-underline-offset: 3px;
-    transition: all .2s;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
+	transition: all .2s;
+	text-decoration: underline;
+	text-decoration-thickness: 3px;
 
 }
 
@@ -927,15 +926,15 @@ text-decoration: none;
 
 .speaker-image-featured::before {
 	content: "";
-    position: absolute;
-    top: 90px;
-    left: -250px;
-    width: 100%;
-    height: 100%;
-    background-image: url(files/2024/04/Abstract-Shapes-27.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -99;
+	position: absolute;
+	top: 90px;
+	left: -250px;
+	width: 100%;
+	height: 100%;
+	background-image: url(files/2024/04/Abstract-Shapes-27.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: -99;
 }
 
 .speaker-image-query {
@@ -955,9 +954,12 @@ text-decoration: none;
 	background-size: cover;
 }
 
+.page-id-1203 .columns-3.is-layout-grid {
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
 /* speakers mobile */
 @media (max-width:767px) {
-	
 	.speaker-image-featured {
 		width: 335px !important;
 		height: 335px !important;
@@ -967,12 +969,12 @@ text-decoration: none;
 		width: 350px !important;
 		height: 350px !important;
 	}
-	
-	
+
+
 	.speaker-image-featured::before {
 		left: -90px !important;
 	}
-	
+
 	.speaker-image-featured-small {
 		width: 320px !important;
 		height: 320px !important;
@@ -982,36 +984,39 @@ text-decoration: none;
 		width: 100% !important;
 	}
 
-	.speaker-image-featured-small::after, .speaker-image-featured::after, .speaker-image-query::after {
-		height: 65px !important; 
+	.speaker-image-featured-small::after,
+	.speaker-image-featured::after,
+	.speaker-image-query::after {
+		height: 65px !important;
 	}
+} /* End of media rule @media (max-width:767px) */
 
-	} /* End of media rule @media (max-width:767px) */
+/* session single */
 
+.session-single-details .wp-block-wordcamp-session-speakers__name a,
+.session-single-details .taxonomy-wcb_session_category a {
+	font: 32px 'Krona One';
+	text-decoration: none;
+}
 
+.session-single-details .wp-block-wordcamp-session-date,
+.session-single-details .taxonomy-wcb_track a {
+	font: 18px 'Krona One';
+	text-decoration: none;
+}
 
-	/* session single */
+.session-single-details .wp-block-wordcamp-session-speakers__name a,
+.session-single-details .taxonomy-wcb_session_category a {
+	font: 32px 'Krona One';
+	text-decoration: none;
+}
 
-	.session-single-details .wp-block-wordcamp-session-speakers__name a, .session-single-details .taxonomy-wcb_session_category a {
-		font: 32px 'Krona One';
-		text-decoration: none;
-	}
+.session-single-details .wp-block-wordcamp-session-date,
+.session-single-details .taxonomy-wcb_track a {
+	font: 18px 'Krona One';
+	text-decoration: none;
+}
 
-	.session-single-details .wp-block-wordcamp-session-date, .session-single-details .taxonomy-wcb_track a {
-		font: 18px 'Krona One';
-		text-decoration: none;
-	}
-
-	.session-single-details .wp-block-wordcamp-session-speakers__name a, .session-single-details .taxonomy-wcb_session_category a {
-		font: 32px 'Krona One';
-		text-decoration: none;
-	}
-
-	.session-single-details .wp-block-wordcamp-session-date, .session-single-details .taxonomy-wcb_track a {
-		font: 18px 'Krona One';
-		text-decoration: none;
-	}
-
-	.wp-block-wordcamp-avatar img {
-		max-height: 100% !important;
-	}
+.wp-block-wordcamp-avatar img {
+	max-height: 100% !important;
+}
