@@ -939,8 +939,8 @@ text-decoration: none;
 }
 
 .speaker-image-query {
-	height: auto !important;
-    width: 100% !important;
+	width: 410px !important;
+	height: 410px !important;
 }
 
 .speaker-image-featured-small::after, .speaker-image-query::after{
