@@ -725,7 +725,7 @@ table.tix_tickets_table.tix-tickets-list {
 /** Attendees Page **/
 .page-id-1479 #tix-attendees li {
 	height: auto;
-	min-height: 500px;
+	min-height: 350px;
 	overflow: hidden;
 	text-align: center;
 }
@@ -733,7 +733,7 @@ table.tix_tickets_table.tix-tickets-list {
 .page-id-1479 #tix-attendees li .avatar {
 	float: none;
 	height: auto;
-	width: 100% !important;
+	width: 96px !important;
 }
 
 .page-id-1479 #tix-attendees li .tix-attendee-name {
@@ -741,15 +741,15 @@ table.tix_tickets_table.tix-tickets-list {
 	font-family: 'Krona One', sans-serif;
 	text-transform: capitalize;
 	font-size: clamp(1.1rem, 0.7863rem + 1.7419vw, 1.5rem);
-	text-align:left;
+	text-align: center;
 }
 
 .page-id-1479 #tix-attendees .tix-attendee-twitter {
 	float: left;
 	margin-top: 10px;
 	visibility: hidden;
-	width: 25%;
-	margin-right: 10px;
+	width: 33%;
+	margin-right: 0px;
 	margin-left: 0px;
 }
 
@@ -757,8 +757,8 @@ table.tix_tickets_table.tix-tickets-list {
 	float: left;
 	margin-top: 10px;
 	visibility: hidden;
-	width: 25%;
-	margin-right: 10px;
+	width: 33%;
+	margin-right: 0px;
 	margin-left: 0px;
 }
 
@@ -767,9 +767,9 @@ table.tix_tickets_table.tix-tickets-list {
 	background-size: contain;
 	content: "";
 	display: inline-block;
-	height: 32px;
+	height: 24px;
 	visibility: visible;
-	width: 32px;
+	width: 24px;
 }
 
 .page-id-1479 #tix-attendees .tix-attendee-url:before {
@@ -777,9 +777,9 @@ table.tix_tickets_table.tix-tickets-list {
 	background-size: contain;
 	content: "";
 	display: inline-block;
-	height: 32px;
+	height: 24px;
 	visibility: visible;
-	width: 32px;
+	width: 24px;
 }
 
 .page-id-1479 #tix-attendees a[href^="https://profiles.wordpress.org"]:before {
