@@ -244,6 +244,11 @@ ul.organizers-index li a {
 	background-position: center;
 }
 
+.bg-shape-community h4 {
+	overflow-wrap: normal;
+  	word-break: normal;
+}
+
 /*--- latest news home ---*/
 .latest-news-home {
 	background: url('/files/2024/01/Yellow-Latest-News-Top.png') right top no-repeat, url('/files/2024/01/Yellow-Latest-News.png') left 45px bottom no-repeat;
