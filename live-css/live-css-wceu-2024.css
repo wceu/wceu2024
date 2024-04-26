@@ -751,6 +751,7 @@ table.tix_tickets_table.tix-tickets-list {
 	width: 33%;
 	margin-right: 0px;
 	margin-left: 0px;
+	font-size: 0px;
 }
 
 .page-id-1479 #tix-attendees .tix-attendee-url {
@@ -760,6 +761,7 @@ table.tix_tickets_table.tix-tickets-list {
 	width: 33%;
 	margin-right: 0px;
 	margin-left: 0px;
+	font-size: 0px;
 }
 
 .page-id-1479 #tix-attendees .tix-attendee-twitter:before {
