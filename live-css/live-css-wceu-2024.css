@@ -1027,3 +1027,57 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 .wp-block-wordcamp-avatar img {
 	max-height: 100% !important;
 }
+
+
+/* Hack for mobile table sizes by Juan Hernando */
+@media (max-width: 767px) {
+	h2#sizes ~ .wp-block-table tbody > tr:first-of-type {
+		display: none;
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td::before {
+		background: #000;
+		content: '';
+		color: #fff;
+		display: inline;
+		font-weight: bold;
+		margin-top: 3px;
+		width: 70px;
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(2)::before {
+		content: 'XS';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(3)::before {
+		content: 'S';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(4)::before {
+		content: 'M';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(5)::before {
+		content: 'L';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(6)::before {
+		content: 'XL';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(7)::before {
+		content: 'XXL';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(8)::before {
+		content: '3XL';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(9)::before {
+		content: '4XL';
+	}
+
+	h2#sizes ~ .wp-block-table tbody > tr td:nth-of-type(10)::before {
+		content: '5XL';
+	}
+}
