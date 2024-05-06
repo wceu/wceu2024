@@ -388,7 +388,7 @@ ul.organizers-index li a {
 	position: relative;
 }
 
-.page-id-1479 #tix-attendees li .avatar::after,
+/* .page-id-1479 #tix-attendees li .avatar::after, */
 .sponsor-human .wp-block-image.size-full::after,
 .page-id-957 .wordcamp-image__avatar-container::after {
 	content: "";
