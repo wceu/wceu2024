@@ -1081,3 +1081,16 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 		content: '5XL';
 	}
 }
+
+/* Favorites solution by by Juan Hernando */
+.wcb-favourite-session .wcb-session-favourite-icon a.fav-session-button,
+.wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:hover,
+.wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus:hover,
+.wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:focus {
+	color: #ffb900;
+}
+
+.wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:hover,
+.wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus {
+	color: #aaa;
+}
