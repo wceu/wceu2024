@@ -1,5 +1,3 @@
-@import "https://api.github.com/repos/wceu/wceu2024/contents/live-css/includes/tickets.css";
-
 /**** Aditional CSS ****/
 /* Gloria Liuni rules */
 /*-- link underline -- */
@@ -1095,8 +1093,4 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 .wordcamp-schedule .wcb-favourite-session div.wcb-session-favourite-icon a.fav-session-button:hover,
 .wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus {
 	color: #aaa;
-}
-
-.fake-test3 {
-	display: none;
 }
