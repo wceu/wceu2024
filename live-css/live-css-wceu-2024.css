@@ -1096,3 +1096,7 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 .wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus {
 	color: #aaa;
 }
+
+.fake-test2 {
+	display: none;
+}
