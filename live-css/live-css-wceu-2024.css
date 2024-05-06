@@ -1,4 +1,4 @@
-@import "includes/tickets.css";
+@import "https://api.github.com/repos/wceu/wceu2024/contents/live-css/includes/tickets.css";
 
 /**** Aditional CSS ****/
 /* Gloria Liuni rules */
@@ -1097,6 +1097,6 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 	color: #aaa;
 }
 
-.fake-test2 {
+.fake-test3 {
 	display: none;
 }
