@@ -1102,3 +1102,8 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 .wordcamp-schedule div.wcb-session-favourite-icon a.fav-session-button:focus {
 	color: #aaa;
 }
+
+/* Sponsors */
+.sponsors img {
+	object-fit: contain !important;
+}
