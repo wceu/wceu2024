@@ -856,7 +856,7 @@ table.tix_tickets_table.tix-tickets-list {
 .wordcamp-schedule .wordcamp-schedule__column-header {
 	background-color: #FBD185 !important;
 	font: 20px/32px 'Krona One', sans-serif;
-	padding: 54px 69px !important;
+	padding: 20px !important;
 }
 @media ( min-height: 1000px ) {
 	.wordcamp-schedule .wordcamp-schedule__column-header {
