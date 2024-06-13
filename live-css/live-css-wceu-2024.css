@@ -17,6 +17,7 @@ li a:hover,
 h4.has-text-align-right.view-all-underline:hover, .session-single-details .taxonomy-wcb_track a:hover,
 .session-single-details .wp-block-wordcamp-session-speakers__name a:hover,
 .session-single-details .taxonomy-wcb_session_category a:hover,
+.session-single-details .session-slides-link a:hover,
 .bg-shape-community:hover {
 	text-underline-offset: 3px;
 	transition: all .2s;
