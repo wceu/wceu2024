@@ -18,6 +18,7 @@ h4.has-text-align-right.view-all-underline:hover, .session-single-details .taxon
 .session-single-details .wp-block-wordcamp-session-speakers__name a:hover,
 .session-single-details .taxonomy-wcb_session_category a:hover,
 .session-single-details .session-slides-link a:hover,
+.session-single-details .session-video-link a:hover,
 .bg-shape-community:hover {
 	text-underline-offset: 3px;
 	transition: all .2s;
@@ -1038,7 +1039,8 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 	text-decoration: none;
 }
 
-.session-single-details .session-slides-link a {
+.session-single-details .session-slides-link a,
+.session-single-details .session-video-link a, {
 	font: 18px 'Krona One';
 	text-decoration: none;
 }
