@@ -1040,7 +1040,7 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 }
 
 .session-single-details .session-slides-link a,
-.session-single-details .session-video-link a, {
+.session-single-details .session-video-link a {
 	font: 18px 'Krona One';
 	text-decoration: none;
 }
