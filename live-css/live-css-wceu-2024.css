@@ -1120,3 +1120,8 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 .sponsors img {
 	object-fit: contain !important;
 }
+
+/* 2025/11/18 Volunteers page fix by CL */
+.page-slug-volunteers .tix-attendee-list .avatar {
+	width: 50px !important;
+}
