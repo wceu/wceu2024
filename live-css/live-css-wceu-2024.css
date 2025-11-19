@@ -1122,6 +1122,10 @@ h4.wordcamp-schedule__session-title, .wordcamp-schedule__day p {
 }
 
 /* 2025/11/18 Volunteers page fix by CL */
+.page-slug-volunteers .tix-attendee-list li {
+	margin-block: 3rem;
+}
+
 .page-slug-volunteers .tix-attendee-list .avatar {
 	width: 50px !important;
 }
